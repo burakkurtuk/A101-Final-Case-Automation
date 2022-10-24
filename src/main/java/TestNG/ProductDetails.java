@@ -20,10 +20,10 @@ public class ProductDetails extends BaseFunctions {
     By addToCart2 = By.xpath("(//button[@class='add-to-basket button small'])[1]");
 
     public void chooseProduct() throws InterruptedException {
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        WebElement prod = driver.findElement(product);
-//        js.executeScript("arguments[0].scrollIntoView();", prod);
-        waitFor(1000);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement prod = driver.findElement(product);
+        js.executeScript("arguments[0].scrollIntoView();", prod);
+        waitFor(500);
         click(product);
         List<String> pages = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(pages.get(1));
