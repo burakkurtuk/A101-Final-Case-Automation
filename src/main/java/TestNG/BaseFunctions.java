@@ -42,7 +42,7 @@ public class BaseFunctions {
 
     public void Assertion(WebElement actual, String expected) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOf(actual));
+        wait.until(ExpectedConditions.elementToBeClickable(actual));
         Assert.assertEquals(actual.getText(), expected);
     }
 
