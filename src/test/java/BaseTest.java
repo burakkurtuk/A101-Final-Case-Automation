@@ -1,3 +1,4 @@
+import Log.Log;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,6 +11,7 @@ public class BaseTest {
 
 
     WebDriver driver;
+    Log log;
 
     @BeforeTest
     public void setUp() {
@@ -21,6 +23,8 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
         driver.get("https://www.hepsiburada.com/");
+        log = new Log();
+        log.info("Navigated to site");
     }
 
     @AfterTest
