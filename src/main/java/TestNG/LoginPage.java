@@ -14,12 +14,11 @@ public class LoginPage extends BaseFunctions {
 
 
     By myAccount = By.cssSelector("div[id='myAccount']");
-    By login = By.cssSelector("a#login");
-    By loginBox = By.cssSelector("div[class='_1TxjTFlVZPBnn-I7vOVL2U _2kBZQPq-lRfZa5Zbc9SbZn ']");
-    By username = By.cssSelector("input[id='txtUserName']");
-    By loginButton1 = By.cssSelector("button[id='btnLogin']");
-    By password = By.cssSelector("input[id='txtPassword']");
-    By loginButton2 = By.cssSelector("button[id='btnEmailSelect']");
+    By login = By.id("login");
+    By username = By.id("txtUserName");
+    By loginButton1 = By.id("btnLogin");
+    By password = By.id("txtPassword");
+    By loginButton2 = By.id("btnEmailSelect");
     By userInformation = By.cssSelector("span[class='sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR']");
 
 
@@ -29,8 +28,6 @@ public class LoginPage extends BaseFunctions {
         actions.moveToElement(myAcc.get(0)).perform();
         waitFor(500);
         click(login);
-        waitFor(500);
-        click(loginBox);
         waitFor(500);
         type(username, "testingbykurt@gmail.com");
         waitFor(500);
