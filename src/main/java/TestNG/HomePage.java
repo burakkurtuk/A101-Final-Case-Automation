@@ -3,7 +3,7 @@ package TestNG;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage extends BaseFunctions{
+public class HomePage extends BaseFunctions {
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -12,24 +12,10 @@ public class HomePage extends BaseFunctions{
     By searchButtonLocator = By.cssSelector("div[class='SearchBoxOld-cHxjyU99nxdIaAbGyX7F']");
 
 
-
     public void searchProduct() {
-        type(searchFieldLocator,"Rtx 3090");
+        type(searchFieldLocator, "Rtx 3090");
         click(searchButtonLocator);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

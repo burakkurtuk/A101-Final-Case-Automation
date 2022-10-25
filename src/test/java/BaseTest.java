@@ -28,6 +28,8 @@ public class BaseTest {
     }
 
     @AfterTest
-    public void quit(){driver.quit();}
+    public void quit() {
+        driver.quit();
+    }
 
 }
