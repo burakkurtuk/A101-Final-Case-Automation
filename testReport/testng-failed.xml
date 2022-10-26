@@ -5,6 +5,7 @@
     <classes>
       <class name="WithRegistrationTest">
         <methods>
+          <include name="quit"/>
           <include name="addProductToCartWithRegister"/>
           <include name="setUp"/>
         </methods>
