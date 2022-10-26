@@ -27,9 +27,9 @@ public class BaseTest {
         log.info("Navigated to site");
     }
 
-//    @AfterTest
-//    public void quit() {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void quit() {
+        driver.quit();
+    }
 
 }

@@ -19,7 +19,7 @@ public class LoginPage extends BaseFunctions {
     By loginButton1 = By.id("btnLogin");
     By password = By.id("txtPassword");
     By loginButton2 = By.id("btnEmailSelect");
-    By userInformation = By.cssSelector("span[class='sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR']");
+    By userInformation = By.className("sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR");
 
 
     public void login() throws InterruptedException {
