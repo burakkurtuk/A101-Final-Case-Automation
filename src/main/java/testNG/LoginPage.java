@@ -36,7 +36,7 @@ public class LoginPage extends BaseFunctions {
         type(password, "1122334455Bk");
         waitFor(500);
         click(loginButton2);
-        waitFor(2000);
+        waitFor(5000);
         Assertion(driver.findElement(userInformation), "Burak Kurt");
 
     }

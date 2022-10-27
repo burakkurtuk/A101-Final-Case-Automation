@@ -1,4 +1,5 @@
 import log.Log;
+import org.openqa.selenium.WebDriver;
 import testNG.CartPage;
 import testNG.HomePage;
 import testNG.ProductDetails;
@@ -16,12 +17,14 @@ public class WithoutRegistrationTest extends BaseTest {
 
 
 
+
     @Test
     public void addProductToCartWithoutRegister() throws InterruptedException {
         homePage = new HomePage(driver);
         productDetails = new ProductDetails(driver);
         cartPage = new CartPage(driver);
         log = new Log();
+
         homePage.searchProduct();
         log.info("Searched for the product");
         productDetails.chooseProduct();
