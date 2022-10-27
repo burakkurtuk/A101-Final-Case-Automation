@@ -155,3 +155,34 @@
 2022-10-27 17:19:27,021 INFO  [Log] Searched for the product 
 2022-10-27 17:19:34,237 INFO  [Log] The product is chosen and added to cart  
 2022-10-27 17:19:37,796 INFO  [Log] Navigated to cart and verified that sellers are different 
+2022-10-27 17:57:57,467 INFO  [Log] Navigated to site 
+2022-10-27 17:58:08,185 INFO  [Log] User login completed and verified 
+2022-10-27 17:58:08,433 INFO  [Log] Searched for the product 
+2022-10-27 17:58:15,981 INFO  [Log] The product is chosen and added to cart  
+2022-10-27 17:58:19,383 INFO  [Log] Navigated to cart and verified that sellers are different 
+2022-10-27 18:00:01,725 INFO  [Log] Navigated to site 
+2022-10-27 18:00:01,985 INFO  [Log] Searched for the product 
+2022-10-27 18:00:08,537 INFO  [Log] The product is chosen and added to cart  
+2022-10-27 18:00:11,457 INFO  [Log] Navigated to cart and verified that sellers are different 
+2022-10-27 18:00:41,326 INFO  [Log] Navigated to site 
+2022-10-27 18:00:41,589 INFO  [Log] Searched for the product 
+2022-10-27 18:00:48,605 INFO  [Log] The product is chosen and added to cart  
+2022-10-27 18:00:51,497 INFO  [Log] Navigated to cart and verified that sellers are different 
+2022-10-27 18:03:13,666 INFO  [Log] Navigated to site 
+2022-10-27 18:03:13,877 INFO  [Log] Searched for the product 
+2022-10-27 18:03:21,321 INFO  [Log] The product is chosen and added to cart  
+2022-10-27 18:03:24,175 INFO  [Log] Navigated to cart and verified that sellers are different 
+2022-10-27 18:03:57,152 INFO  [Log] Navigated to site 
+2022-10-27 18:03:57,318 INFO  [Log] Searched for the product 
+2022-10-27 18:04:03,316 INFO  [Log] The product is chosen and added to cart  
+2022-10-27 18:04:06,198 INFO  [Log] Navigated to cart and verified that sellers are different 
+2022-10-27 18:05:11,108 INFO  [Log] Navigated to site 
+2022-10-27 18:05:11,327 INFO  [Log] Searched for the product 
+2022-10-27 18:05:17,079 INFO  [Log] The product is chosen and added to cart  
+2022-10-27 18:05:20,117 INFO  [Log] Navigated to cart and verified that sellers are different 
+2022-10-27 18:06:17,662 INFO  [Log] Navigated to site 
+2022-10-27 23:03:58,169 INFO  [Log] Navigated to site 
+2022-10-27 23:04:08,856 INFO  [Log] User login completed and verified 
+2022-10-27 23:04:09,372 INFO  [Log] Searched for the product 
+2022-10-27 23:04:17,161 INFO  [Log] The product is chosen and added to cart  
+2022-10-27 23:04:20,264 INFO  [Log] Navigated to cart and verified that sellers are different 
