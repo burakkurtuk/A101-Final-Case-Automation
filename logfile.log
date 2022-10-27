@@ -1,118 +1,123 @@
-2022-10-25 19:00:31,463 INFO  [Log] Navigated to site 
-2022-10-25 19:01:04,749 INFO  [Log] Navigated to site 
-2022-10-25 19:01:05,116 INFO  [Log] Searched for the product 
-2022-10-25 19:01:10,724 INFO  [Log] The product is chosen and added to cart  
-2022-10-25 19:01:13,783 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-25 19:03:04,582 INFO  [Log] Navigated to site 
-2022-10-25 19:06:35,877 INFO  [Log] Navigated to site 
-2022-10-25 19:08:07,927 INFO  [Log] Navigated to site 
-2022-10-25 19:09:13,482 INFO  [Log] Navigated to site 
-2022-10-25 19:09:49,617 INFO  [Log] Navigated to site 
-2022-10-25 19:12:01,206 INFO  [Log] Navigated to site 
-2022-10-25 19:12:10,798 INFO  [Log] User login completed and verified 
-2022-10-25 19:12:11,006 INFO  [Log] Searched for the product 
-2022-10-25 19:12:18,482 INFO  [Log] The product is chosen and added to cart  
-2022-10-25 19:12:22,590 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-25 19:16:11,471 INFO  [Log] Navigated to site 
-2022-10-25 19:17:08,493 INFO  [Log] Navigated to site 
-2022-10-25 19:17:55,219 INFO  [Log] Navigated to site 
-2022-10-25 19:19:46,744 INFO  [Log] Navigated to site 
-2022-10-25 19:19:46,983 INFO  [Log] Searched for the product 
-2022-10-25 19:19:53,662 INFO  [Log] The product is chosen and added to cart  
-2022-10-25 19:19:56,641 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-25 19:38:28,625 INFO  [Log] Navigated to site 
-2022-10-25 19:38:45,081 INFO  [Log] Navigated to site 
-2022-10-25 19:38:54,896 INFO  [Log] User login completed and verified 
-2022-10-25 19:38:55,162 INFO  [Log] Searched for the product 
-2022-10-25 19:39:01,673 INFO  [Log] The product is chosen and added to cart  
-2022-10-25 19:39:05,153 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-25 21:30:00,922 INFO  [Log] Navigated to site 
-2022-10-25 21:44:47,077 INFO  [Log] Navigated to site 
-2022-10-25 21:46:35,039 INFO  [Log] Navigated to site 
-2022-10-25 21:46:46,615 INFO  [Log] User login completed and verified 
-2022-10-25 21:46:46,816 INFO  [Log] Searched for the product 
-2022-10-25 21:46:55,652 INFO  [Log] The product is chosen and added to cart  
-2022-10-25 21:59:35,014 INFO  [Log] Navigated to site 
-2022-10-25 22:01:27,442 INFO  [Log] Navigated to site 
-2022-10-25 22:02:33,592 INFO  [Log] Navigated to site 
-2022-10-25 22:02:50,730 INFO  [Log] Navigated to site 
-2022-10-25 22:03:01,344 INFO  [Log] User login completed and verified 
-2022-10-25 22:03:01,646 INFO  [Log] Searched for the product 
-2022-10-25 22:03:09,893 INFO  [Log] The product is chosen and added to cart  
-2022-10-25 22:03:47,460 INFO  [Log] Navigated to site 
-2022-10-25 22:03:57,748 INFO  [Log] User login completed and verified 
-2022-10-25 22:03:58,058 INFO  [Log] Searched for the product 
-2022-10-25 22:04:04,484 INFO  [Log] The product is chosen and added to cart  
-2022-10-25 22:04:09,581 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-25 22:08:03,340 INFO  [Log] Navigated to site 
-2022-10-25 22:08:36,912 INFO  [Log] Navigated to site 
-2022-10-25 22:15:30,520 INFO  [Log] Navigated to site 
-2022-10-25 22:16:32,553 INFO  [Log] Navigated to site 
-2022-10-25 22:17:03,776 INFO  [Log] Navigated to site 
-2022-10-25 22:17:41,828 INFO  [Log] Navigated to site 
-2022-10-26 15:45:41,936 INFO  [Log] Navigated to site 
-2022-10-26 15:46:21,741 INFO  [Log] Navigated to site 
-2022-10-26 15:46:31,976 INFO  [Log] User login completed and verified 
-2022-10-26 15:46:32,212 INFO  [Log] Searched for the product 
-2022-10-26 15:46:39,985 INFO  [Log] The product is chosen and added to cart  
-2022-10-26 15:46:43,353 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-26 15:49:53,799 INFO  [Log] Navigated to site 
-2022-10-26 15:50:13,343 INFO  [Log] Navigated to site 
-2022-10-26 15:51:01,325 INFO  [Log] Navigated to site 
-2022-10-26 15:52:08,386 INFO  [Log] Navigated to site 
-2022-10-26 15:52:52,506 INFO  [Log] Navigated to site 
-2022-10-26 15:53:53,855 INFO  [Log] Navigated to site 
-2022-10-26 15:54:34,307 INFO  [Log] Navigated to site 
-2022-10-26 15:55:22,022 INFO  [Log] Navigated to site 
-2022-10-26 15:55:22,304 INFO  [Log] Searched for the product 
-2022-10-26 15:55:29,573 INFO  [Log] The product is chosen and added to cart  
-2022-10-26 15:55:32,423 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-26 15:56:33,554 INFO  [Log] Navigated to site 
-2022-10-26 15:56:51,817 INFO  [Log] Navigated to site 
-2022-10-26 15:59:10,491 INFO  [Log] Navigated to site 
-2022-10-26 16:03:32,583 INFO  [Log] Navigated to site 
-2022-10-26 16:03:59,365 INFO  [Log] Navigated to site 
-2022-10-26 16:09:49,140 INFO  [Log] Navigated to site 
-2022-10-26 16:10:08,839 INFO  [Log] Navigated to site 
-2022-10-26 16:10:40,529 INFO  [Log] Navigated to site 
-2022-10-26 16:10:46,288 INFO  [Log] User login completed and verified 
-2022-10-26 16:10:51,539 INFO  [Log] Searched for the product 
-2022-10-26 16:10:58,156 INFO  [Log] The product is chosen and added to cart  
-2022-10-26 16:11:02,125 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-26 16:14:26,992 INFO  [Log] Navigated to site 
-2022-10-26 16:15:17,105 INFO  [Log] Navigated to site 
-2022-10-26 16:17:46,266 INFO  [Log] Navigated to site 
-2022-10-26 16:26:43,134 INFO  [Log] Navigated to site 
-2022-10-26 16:27:50,590 INFO  [Log] Navigated to site 
-2022-10-26 16:35:08,686 INFO  [Log] Navigated to site 
-2022-10-26 16:36:37,663 INFO  [Log] Navigated to site 
-2022-10-26 16:38:51,303 INFO  [Log] Navigated to site 
-2022-10-26 16:39:49,375 INFO  [Log] Navigated to site 
-2022-10-26 16:40:00,013 INFO  [Log] User login completed and verified 
-2022-10-26 16:40:00,372 INFO  [Log] Searched for the product 
-2022-10-26 16:40:09,445 INFO  [Log] The product is chosen and added to cart  
-2022-10-26 16:40:12,576 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-26 16:41:21,601 INFO  [Log] Navigated to site 
-2022-10-26 16:42:00,413 INFO  [Log] Navigated to site 
-2022-10-26 16:42:09,392 INFO  [Log] User login completed and verified 
-2022-10-26 16:42:09,623 INFO  [Log] Searched for the product 
-2022-10-26 16:42:16,944 INFO  [Log] The product is chosen and added to cart  
-2022-10-26 16:42:19,787 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-26 16:52:43,966 INFO  [Log] Navigated to site 
-2022-10-26 17:00:57,781 INFO  [Log] Navigated to site 
-2022-10-26 17:01:56,208 INFO  [Log] Navigated to site 
-2022-10-26 17:02:05,940 INFO  [Log] User login completed and verified 
-2022-10-26 17:02:06,193 INFO  [Log] Searched for the product 
-2022-10-26 17:02:13,008 INFO  [Log] The product is chosen and added to cart  
-2022-10-26 17:02:16,046 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-26 17:03:57,561 INFO  [Log] Navigated to site 
-2022-10-26 17:04:07,935 INFO  [Log] User login completed and verified 
-2022-10-26 17:04:08,284 INFO  [Log] Searched for the product 
-2022-10-26 17:04:14,086 INFO  [Log] The product is chosen and added to cart  
-2022-10-26 17:04:17,253 INFO  [Log] Navigated to cart and verified that sellers are different 
-2022-10-26 17:16:27,242 INFO  [Log] Navigated to site 
-2022-10-26 17:17:05,335 INFO  [Log] Navigated to site 
-2022-10-26 17:17:23,869 INFO  [Log] Navigated to site 
-2022-10-26 17:18:26,591 INFO  [Log] Navigated to site 
-2022-10-26 17:18:38,506 INFO  [Log] Navigated to site 
-2022-10-26 17:19:27,946 INFO  [Log] Navigated to site 
+2022-10-25 19:00:31,463 INFO  [log] Navigated to site
+2022-10-25 19:01:04,749 INFO  [log] Navigated to site
+2022-10-25 19:01:05,116 INFO  [log] Searched for the product
+2022-10-25 19:01:10,724 INFO  [log] The product is chosen and added to cart
+2022-10-25 19:01:13,783 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-25 19:03:04,582 INFO  [log] Navigated to site
+2022-10-25 19:06:35,877 INFO  [log] Navigated to site
+2022-10-25 19:08:07,927 INFO  [log] Navigated to site
+2022-10-25 19:09:13,482 INFO  [log] Navigated to site
+2022-10-25 19:09:49,617 INFO  [log] Navigated to site
+2022-10-25 19:12:01,206 INFO  [log] Navigated to site
+2022-10-25 19:12:10,798 INFO  [log] User login completed and verified
+2022-10-25 19:12:11,006 INFO  [log] Searched for the product
+2022-10-25 19:12:18,482 INFO  [log] The product is chosen and added to cart
+2022-10-25 19:12:22,590 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-25 19:16:11,471 INFO  [log] Navigated to site
+2022-10-25 19:17:08,493 INFO  [log] Navigated to site
+2022-10-25 19:17:55,219 INFO  [log] Navigated to site
+2022-10-25 19:19:46,744 INFO  [log] Navigated to site
+2022-10-25 19:19:46,983 INFO  [log] Searched for the product
+2022-10-25 19:19:53,662 INFO  [log] The product is chosen and added to cart
+2022-10-25 19:19:56,641 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-25 19:38:28,625 INFO  [log] Navigated to site
+2022-10-25 19:38:45,081 INFO  [log] Navigated to site
+2022-10-25 19:38:54,896 INFO  [log] User login completed and verified
+2022-10-25 19:38:55,162 INFO  [log] Searched for the product
+2022-10-25 19:39:01,673 INFO  [log] The product is chosen and added to cart
+2022-10-25 19:39:05,153 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-25 21:30:00,922 INFO  [log] Navigated to site
+2022-10-25 21:44:47,077 INFO  [log] Navigated to site
+2022-10-25 21:46:35,039 INFO  [log] Navigated to site
+2022-10-25 21:46:46,615 INFO  [log] User login completed and verified
+2022-10-25 21:46:46,816 INFO  [log] Searched for the product
+2022-10-25 21:46:55,652 INFO  [log] The product is chosen and added to cart
+2022-10-25 21:59:35,014 INFO  [log] Navigated to site
+2022-10-25 22:01:27,442 INFO  [log] Navigated to site
+2022-10-25 22:02:33,592 INFO  [log] Navigated to site
+2022-10-25 22:02:50,730 INFO  [log] Navigated to site
+2022-10-25 22:03:01,344 INFO  [log] User login completed and verified
+2022-10-25 22:03:01,646 INFO  [log] Searched for the product
+2022-10-25 22:03:09,893 INFO  [log] The product is chosen and added to cart
+2022-10-25 22:03:47,460 INFO  [log] Navigated to site
+2022-10-25 22:03:57,748 INFO  [log] User login completed and verified
+2022-10-25 22:03:58,058 INFO  [log] Searched for the product
+2022-10-25 22:04:04,484 INFO  [log] The product is chosen and added to cart
+2022-10-25 22:04:09,581 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-25 22:08:03,340 INFO  [log] Navigated to site
+2022-10-25 22:08:36,912 INFO  [log] Navigated to site
+2022-10-25 22:15:30,520 INFO  [log] Navigated to site
+2022-10-25 22:16:32,553 INFO  [log] Navigated to site
+2022-10-25 22:17:03,776 INFO  [log] Navigated to site
+2022-10-25 22:17:41,828 INFO  [log] Navigated to site
+2022-10-26 15:45:41,936 INFO  [log] Navigated to site
+2022-10-26 15:46:21,741 INFO  [log] Navigated to site
+2022-10-26 15:46:31,976 INFO  [log] User login completed and verified
+2022-10-26 15:46:32,212 INFO  [log] Searched for the product
+2022-10-26 15:46:39,985 INFO  [log] The product is chosen and added to cart
+2022-10-26 15:46:43,353 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-26 15:49:53,799 INFO  [log] Navigated to site
+2022-10-26 15:50:13,343 INFO  [log] Navigated to site
+2022-10-26 15:51:01,325 INFO  [log] Navigated to site
+2022-10-26 15:52:08,386 INFO  [log] Navigated to site
+2022-10-26 15:52:52,506 INFO  [log] Navigated to site
+2022-10-26 15:53:53,855 INFO  [log] Navigated to site
+2022-10-26 15:54:34,307 INFO  [log] Navigated to site
+2022-10-26 15:55:22,022 INFO  [log] Navigated to site
+2022-10-26 15:55:22,304 INFO  [log] Searched for the product
+2022-10-26 15:55:29,573 INFO  [log] The product is chosen and added to cart
+2022-10-26 15:55:32,423 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-26 15:56:33,554 INFO  [log] Navigated to site
+2022-10-26 15:56:51,817 INFO  [log] Navigated to site
+2022-10-26 15:59:10,491 INFO  [log] Navigated to site
+2022-10-26 16:03:32,583 INFO  [log] Navigated to site
+2022-10-26 16:03:59,365 INFO  [log] Navigated to site
+2022-10-26 16:09:49,140 INFO  [log] Navigated to site
+2022-10-26 16:10:08,839 INFO  [log] Navigated to site
+2022-10-26 16:10:40,529 INFO  [log] Navigated to site
+2022-10-26 16:10:46,288 INFO  [log] User login completed and verified
+2022-10-26 16:10:51,539 INFO  [log] Searched for the product
+2022-10-26 16:10:58,156 INFO  [log] The product is chosen and added to cart
+2022-10-26 16:11:02,125 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-26 16:14:26,992 INFO  [log] Navigated to site
+2022-10-26 16:15:17,105 INFO  [log] Navigated to site
+2022-10-26 16:17:46,266 INFO  [log] Navigated to site
+2022-10-26 16:26:43,134 INFO  [log] Navigated to site
+2022-10-26 16:27:50,590 INFO  [log] Navigated to site
+2022-10-26 16:35:08,686 INFO  [log] Navigated to site
+2022-10-26 16:36:37,663 INFO  [log] Navigated to site
+2022-10-26 16:38:51,303 INFO  [log] Navigated to site
+2022-10-26 16:39:49,375 INFO  [log] Navigated to site
+2022-10-26 16:40:00,013 INFO  [log] User login completed and verified
+2022-10-26 16:40:00,372 INFO  [log] Searched for the product
+2022-10-26 16:40:09,445 INFO  [log] The product is chosen and added to cart
+2022-10-26 16:40:12,576 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-26 16:41:21,601 INFO  [log] Navigated to site
+2022-10-26 16:42:00,413 INFO  [log] Navigated to site
+2022-10-26 16:42:09,392 INFO  [log] User login completed and verified
+2022-10-26 16:42:09,623 INFO  [log] Searched for the product
+2022-10-26 16:42:16,944 INFO  [log] The product is chosen and added to cart
+2022-10-26 16:42:19,787 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-26 16:52:43,966 INFO  [log] Navigated to site
+2022-10-26 17:00:57,781 INFO  [log] Navigated to site
+2022-10-26 17:01:56,208 INFO  [log] Navigated to site
+2022-10-26 17:02:05,940 INFO  [log] User login completed and verified
+2022-10-26 17:02:06,193 INFO  [log] Searched for the product
+2022-10-26 17:02:13,008 INFO  [log] The product is chosen and added to cart
+2022-10-26 17:02:16,046 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-26 17:03:57,561 INFO  [log] Navigated to site
+2022-10-26 17:04:07,935 INFO  [log] User login completed and verified
+2022-10-26 17:04:08,284 INFO  [log] Searched for the product
+2022-10-26 17:04:14,086 INFO  [log] The product is chosen and added to cart
+2022-10-26 17:04:17,253 INFO  [log] Navigated to cart and verified that sellers are different
+2022-10-26 17:16:27,242 INFO  [log] Navigated to site
+2022-10-26 17:17:05,335 INFO  [log] Navigated to site
+2022-10-26 17:17:23,869 INFO  [log] Navigated to site
+2022-10-26 17:18:26,591 INFO  [log] Navigated to site
+2022-10-26 17:18:38,506 INFO  [log] Navigated to site
+2022-10-26 17:19:27,946 INFO  [log] Navigated to site
+2022-10-26 17:49:12,150 INFO  [log] Navigated to site
+2022-10-26 17:49:23,756 INFO  [log] User login completed and verified
+2022-10-26 17:49:24,074 INFO  [log] Searched for the product
+2022-10-26 17:49:32,442 INFO  [log] The product is chosen and added to cart
+2022-10-26 17:49:35,386 INFO  [log] Navigated to cart and verified that sellers are different

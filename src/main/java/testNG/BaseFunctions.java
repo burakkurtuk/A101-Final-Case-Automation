@@ -1,4 +1,4 @@
-package TestNG;
+package testNG;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -41,7 +41,7 @@ public class BaseFunctions {
     }
 
     public void Assertion(WebElement actual, String expected) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOf(actual));
         Assert.assertEquals(actual.getText(), expected);
     }

@@ -1,7 +1,7 @@
-import Log.Log;
-import TestNG.CartPage;
-import TestNG.HomePage;
-import TestNG.ProductDetails;
+import log.Log;
+import testNG.CartPage;
+import testNG.HomePage;
+import testNG.ProductDetails;
 import org.testng.annotations.Test;
 
 public class WithoutRegistrationTest extends BaseTest {
