@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.junit.jupiter.api.Assertions;
-import org.testng.asserts.Assertion;
+
 
 import java.util.List;
 
@@ -22,6 +22,7 @@ public class LoginPage extends BaseFunctions {
     By password = By.id("txtPassword");
     By loginButton2 = By.id("btnEmailSelect");
     By userInformation = By.className("sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR");
+
 
 
     /**
@@ -44,7 +45,6 @@ public class LoginPage extends BaseFunctions {
         click(loginButton2);
         waitFor(5000);
         Assertions.assertEquals(getText(userInformation),"Burak Kurt");
-//        Assertion(driver.findElement(userInformation), "Burak Kurt");
 
     }
 
