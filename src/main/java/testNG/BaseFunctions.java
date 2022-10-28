@@ -40,6 +40,10 @@ public class BaseFunctions {
 
     }
 
+    public String getText(By locator){
+        return find(locator).getText();
+    }
+
     public void Assertion(WebElement actual, String expected) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOf(actual));

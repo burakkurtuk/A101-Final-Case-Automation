@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.junit.jupiter.api.Assertions;
+import org.testng.asserts.Assertion;
 
 import java.util.List;
 
@@ -22,6 +24,10 @@ public class LoginPage extends BaseFunctions {
     By userInformation = By.className("sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR");
 
 
+    /**
+     * @method "login" is to find login button, send texts to email and password inputs
+     * @throws InterruptedException
+     */
     public void login() throws InterruptedException {
         Actions actions = new Actions(driver);
         List<WebElement> myAcc = driver.findElements(myAccount);
@@ -37,7 +43,8 @@ public class LoginPage extends BaseFunctions {
         waitFor(500);
         click(loginButton2);
         waitFor(5000);
-        Assertion(driver.findElement(userInformation), "Burak Kurt");
+        Assertions.assertEquals(getText(userInformation),"Burak Kurt");
+//        Assertion(driver.findElement(userInformation), "Burak Kurt");
 
     }
 
