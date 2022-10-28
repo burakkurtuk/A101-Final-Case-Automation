@@ -19,7 +19,7 @@ public class CartPage extends BaseFunctions {
     By secondSeller = By.xpath("(//span[@class='merchantLink_2Ii8s'])[2]");
 
     /**
-     * @method "goToCart" directs to cartPage
+     * @method "goToCart" directs to cartPage and verifies that sellers are different
      * @throws InterruptedException
      */
     public void goToCart() throws InterruptedException {

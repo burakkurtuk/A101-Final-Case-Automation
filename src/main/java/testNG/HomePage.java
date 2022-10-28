@@ -11,7 +11,9 @@ public class HomePage extends BaseFunctions {
     By searchFieldLocator = By.cssSelector("input[class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']");
     By searchButtonLocator = By.cssSelector("div[class='SearchBoxOld-cHxjyU99nxdIaAbGyX7F']");
 
-
+    /**
+     * @method "searchProduct" searching for the product
+     */
     public void searchProduct() {
         type(searchFieldLocator, "Rtx 3090");
         click(searchButtonLocator);

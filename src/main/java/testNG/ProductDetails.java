@@ -17,6 +17,10 @@ public class ProductDetails extends BaseFunctions {
     By addToCart = By.cssSelector("button[id='addToCart']");
     By addToCart2 = By.xpath("(//button[@class='add-to-basket button small'])[1]");
 
+    /**
+     * @method "chooseProduct" the product is chosen and added to cart
+     * @throws InterruptedException
+     */
     public void chooseProduct() throws InterruptedException {
         waitFor(500);
         click(product);

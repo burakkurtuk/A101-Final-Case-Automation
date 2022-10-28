@@ -33,7 +33,7 @@ public class WithRegistrationTest extends BaseTest{
         homePage.searchProduct();
         log.info("Searched for the product");
         productDetails.chooseProduct();
-        log.info("The product is chosen and added to cart ");
+        log.info("The product is chosen and added to cart");
         cartPage.goToCart();
         log.info("Navigated to cart and verified that sellers are different");
     }
