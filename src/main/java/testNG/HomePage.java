@@ -10,13 +10,16 @@ public class HomePage extends BaseFunctions {
 
     By searchFieldLocator = By.cssSelector("input[class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']");
     By searchButtonLocator = By.cssSelector("div[class='SearchBoxOld-cHxjyU99nxdIaAbGyX7F']");
+    By cookieLocator = By.cssSelector("button[id='onetrust-accept-btn-handler']");
 
     /**
      * @method "searchProduct" searching for the product
      */
     public void searchProduct() {
+        click(cookieLocator);
         type(searchFieldLocator, "Rtx 3090");
         click(searchButtonLocator);
+
     }
 
 

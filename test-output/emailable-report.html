@@ -9,11 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Single Thread All Test Cases</th></tr>
-<tr><td><a href="#t0">Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">38.932</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">34.579</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Single Thread All Test Cases</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.WithRegistrationTest</td><td><a href="#m0">addProductToCartWithRegister</a></td><td rowspan="1">1666965187987</td><td rowspan="1">21464</td></tr><tr class="passedodd"><td rowspan="1">tests.WithoutRegistrationTest</td><td><a href="#m1">addProductToCartWithoutRegister</a></td><td rowspan="1">1666965212628</td><td rowspan="1">10293</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Single Thread All Test Cases</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.WithRegistrationTest</td><td><a href="#m0">addProductToCartWithRegister</a></td><td rowspan="1">1667065394374</td><td rowspan="1">17457</td></tr><tr><th colspan="4">Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.WithoutRegistrationTest</td><td><a href="#m1">addProductToCartWithoutRegister</a></td><td rowspan="1">1667065415295</td><td rowspan="1">9001</td></tr></tbody>
 </table>
-<h2>Tests</h2><h3 id="m0">tests.WithRegistrationTest#addProductToCartWithRegister</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Tests</h2><h3 id="m0">tests.WithRegistrationTest#addProductToCartWithRegister</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-bind=&quot;click: function() { return true;}, clickBubble: false&quot; class=&quot;add-to-basket button small&quot;&gt;...&lt;/button&gt; is not clickable at point (1785, 1263). Other element would receive the click: &lt;div class=&quot;checkoutui-Modal-1Myi1 checkoutui-Modal-2vGqO&quot; data-test-class=&quot;modal_overflow&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=106.0.5249.119)
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [697739e47a4ef294da3db9131b314c3c, clickElement {id=fbd79490-2f55-4b71-83aa-e53ee1a8dca7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10757/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (697739e47a4ef294da3db9131b314c3c)] -&gt; xpath: (//button[@class=&apos;add-to-basket button small&apos;])[1]]
+Session ID: 697739e47a4ef294da3db9131b314c3c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at testNG.BaseFunctions.click(BaseFunctions.java:31)
+	at testNG.ProductDetails.chooseProduct(ProductDetails.java:31)
+	at tests.WithRegistrationTest.addProductToCartWithRegister(WithRegistrationTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">tests.WithoutRegistrationTest#addProductToCartWithoutRegister</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

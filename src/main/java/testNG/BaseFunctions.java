@@ -40,7 +40,7 @@ public class BaseFunctions {
 
     }
 
-    public String getText(By locator){
+    public String getText(By locator) {
         return find(locator).getText();
     }
 
