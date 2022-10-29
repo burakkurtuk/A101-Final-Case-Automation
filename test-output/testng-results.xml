@@ -1,103 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-29T20:43:09 TRT" name="Single Thread All Test Cases" finished-at="2022-10-29T20:43:44 TRT" duration-ms="34579">
+  <suite started-at="2022-10-29T21:41:28 TRT" name="Single Thread All Test Cases" finished-at="2022-10-29T21:42:15 TRT" duration-ms="46356">
     <groups>
     </groups>
-    <test started-at="2022-10-29T20:43:09 TRT" name="Tests" finished-at="2022-10-29T20:43:44 TRT" duration-ms="34579">
+    <test started-at="2022-10-29T21:41:28 TRT" name="Tests" finished-at="2022-10-29T21:42:15 TRT" duration-ms="46356">
       <class name="tests.WithRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@6b26e945]" started-at="2022-10-29T20:43:09 TRT" name="setUp" finished-at="2022-10-29T20:43:14 TRT" duration-ms="4572" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@47542153]" started-at="2022-10-29T21:41:28 TRT" name="setUp" finished-at="2022-10-29T21:41:33 TRT" duration-ms="4416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@6b26e945]" started-at="2022-10-29T20:43:14 TRT" name="addProductToCartWithRegister" finished-at="2022-10-29T20:43:31 TRT" duration-ms="17457" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button data-bind="click: function() { return true;}, clickBubble: false" class="add-to-basket button small">...</button> is not clickable at point (1785, 1263). Other element would receive the click: <div class="checkoutui-Modal-1Myi1 checkoutui-Modal-2vGqO" data-test-class="modal_overflow">...</div>
-  (Session info: chrome=106.0.5249.119)
-Build info: version: '4.5.0', revision: 'fe167b119a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [697739e47a4ef294da3db9131b314c3c, clickElement {id=fbd79490-2f55-4b71-83aa-e53ee1a8dca7}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10757/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (697739e47a4ef294da3db9131b314c3c)] -> xpath: (//button[@class='add-to-basket button small'])[1]]
-Session ID: 697739e47a4ef294da3db9131b314c3c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-bind="click: function() { return true;}, clickBubble: false" class="add-to-basket button small">...</button> is not clickable at point (1785, 1263). Other element would receive the click: <div class="checkoutui-Modal-1Myi1 checkoutui-Modal-2vGqO" data-test-class="modal_overflow">...</div>
-  (Session info: chrome=106.0.5249.119)
-Build info: version: '4.5.0', revision: 'fe167b119a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [697739e47a4ef294da3db9131b314c3c, clickElement {id=fbd79490-2f55-4b71-83aa-e53ee1a8dca7}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:10757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10757/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (697739e47a4ef294da3db9131b314c3c)] -> xpath: (//button[@class='add-to-basket button small'])[1]]
-Session ID: 697739e47a4ef294da3db9131b314c3c
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at testNG.BaseFunctions.click(BaseFunctions.java:31)
-at testNG.ProductDetails.chooseProduct(ProductDetails.java:31)
-at tests.WithRegistrationTest.addProductToCartWithRegister(WithRegistrationTest.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@47542153]" started-at="2022-10-29T21:41:33 TRT" name="addProductToCartWithRegister" finished-at="2022-10-29T21:41:57 TRT" duration-ms="24341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithRegister -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithRegistrationTest@6b26e945]" started-at="2022-10-29T20:43:31 TRT" name="quit" finished-at="2022-10-29T20:43:31 TRT" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
       </class> <!-- tests.WithRegistrationTest -->
       <class name="tests.WithoutRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@4e91d63f]" started-at="2022-10-29T20:43:31 TRT" name="setUp" finished-at="2022-10-29T20:43:35 TRT" duration-ms="3385" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@4df50bcc]" started-at="2022-10-29T21:41:57 TRT" name="setUp" finished-at="2022-10-29T21:42:01 TRT" duration-ms="3646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@4e91d63f]" started-at="2022-10-29T20:43:35 TRT" name="addProductToCartWithoutRegister" finished-at="2022-10-29T20:43:44 TRT" duration-ms="9001" status="PASS">
+        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@4df50bcc]" started-at="2022-10-29T21:42:01 TRT" name="addProductToCartWithoutRegister" finished-at="2022-10-29T21:42:15 TRT" duration-ms="13925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithoutRegister -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithoutRegistrationTest@4e91d63f]" started-at="2022-10-29T20:43:44 TRT" name="quit" finished-at="2022-10-29T20:43:44 TRT" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
       </class> <!-- tests.WithoutRegistrationTest -->
     </test> <!-- Tests -->
   </suite> <!-- Single Thread All Test Cases -->

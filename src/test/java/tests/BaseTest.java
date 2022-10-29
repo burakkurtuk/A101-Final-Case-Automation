@@ -30,9 +30,9 @@ public class BaseTest {
         log.info("Navigated to site");
     }
 
-//    @AfterClass
-//    public void quit() {
-//        driver.quit();
-//    }
+    @AfterClass
+    public void quit() {
+        driver.quit();
+    }
 
 }
