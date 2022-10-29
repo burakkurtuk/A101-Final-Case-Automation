@@ -11,7 +11,7 @@
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
-        <selenium.version>4.5.0</selenium.version>
+        <selenium.version>4.5.3</selenium.version>
     </properties>
 
     <dependencies>
