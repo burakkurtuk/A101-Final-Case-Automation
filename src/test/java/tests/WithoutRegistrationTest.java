@@ -2,7 +2,6 @@ package tests;
 
 
 import log.Log;
-import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.*;
 import testNG.CartPage;
 import testNG.HomePage;

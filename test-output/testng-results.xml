@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-31T17:34:12 TRT" name="Single Thread All Test Cases" finished-at="2022-10-31T17:34:59 TRT" duration-ms="47718">
+  <suite started-at="2022-10-31T22:44:53 TRT" name="Single Thread All Test Cases" finished-at="2022-10-31T22:45:38 TRT" duration-ms="45710">
     <groups>
     </groups>
-    <test started-at="2022-10-31T17:34:12 TRT" name="Tests" finished-at="2022-10-31T17:34:59 TRT" duration-ms="47718">
+    <test started-at="2022-10-31T22:44:53 TRT" name="Tests" finished-at="2022-10-31T22:45:38 TRT" duration-ms="45710">
       <class name="tests.WithRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@229d10bd]" started-at="2022-10-31T17:34:12 TRT" name="setUp" finished-at="2022-10-31T17:34:17 TRT" duration-ms="5216" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@7a4ccb53]" started-at="2022-10-31T22:44:53 TRT" name="setUp" finished-at="2022-10-31T22:44:57 TRT" duration-ms="4158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@229d10bd]" started-at="2022-10-31T17:34:17 TRT" name="addProductToCartWithRegister" finished-at="2022-10-31T17:34:41 TRT" duration-ms="24046" status="PASS">
+        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@7a4ccb53]" started-at="2022-10-31T22:44:57 TRT" name="addProductToCartWithRegister" finished-at="2022-10-31T22:45:21 TRT" duration-ms="24276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithRegister -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithRegistrationTest@229d10bd]" started-at="2022-10-31T17:34:41 TRT" name="quit" finished-at="2022-10-31T17:34:41 TRT" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithRegistrationTest@7a4ccb53]" started-at="2022-10-31T22:45:21 TRT" name="quit" finished-at="2022-10-31T22:45:21 TRT" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- tests.WithRegistrationTest -->
       <class name="tests.WithoutRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@25d250c6]" started-at="2022-10-31T17:34:41 TRT" name="setUp" finished-at="2022-10-31T17:34:45 TRT" duration-ms="3801" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@63a65a25]" started-at="2022-10-31T22:45:21 TRT" name="setUp" finished-at="2022-10-31T22:45:25 TRT" duration-ms="4349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@25d250c6]" started-at="2022-10-31T17:34:45 TRT" name="addProductToCartWithoutRegister" finished-at="2022-10-31T17:34:59 TRT" duration-ms="14457" status="PASS">
+        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@63a65a25]" started-at="2022-10-31T22:45:25 TRT" name="addProductToCartWithoutRegister" finished-at="2022-10-31T22:45:38 TRT" duration-ms="12754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithoutRegister -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithoutRegistrationTest@25d250c6]" started-at="2022-10-31T17:34:59 TRT" name="quit" finished-at="2022-10-31T17:34:59 TRT" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithoutRegistrationTest@63a65a25]" started-at="2022-10-31T22:45:38 TRT" name="quit" finished-at="2022-10-31T22:45:38 TRT" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
