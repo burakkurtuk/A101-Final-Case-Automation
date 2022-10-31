@@ -2,19 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-29T21:31:55 TRT" name="Default Suite" finished-at="2022-10-29T21:32:12 TRT" duration-ms="17144">
+  <suite started-at="2022-10-31T16:38:59 TRT" name="Default Suite" finished-at="2022-10-31T16:39:17 TRT" duration-ms="18167">
     <groups>
     </groups>
-    <test started-at="2022-10-29T21:31:55 TRT" name="A101-Final-Case-Automation" finished-at="2022-10-29T21:32:12 TRT" duration-ms="17144">
+    <test started-at="2022-10-31T16:38:59 TRT" name="A101-Final-Case-Automation" finished-at="2022-10-31T16:39:17 TRT" duration-ms="18167">
       <class name="tests.WithoutRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@4e91d63f]" started-at="2022-10-29T21:31:55 TRT" name="setUp" finished-at="2022-10-29T21:31:59 TRT" duration-ms="3920" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@6b26e945]" started-at="2022-10-31T16:38:59 TRT" name="setUp" finished-at="2022-10-31T16:39:03 TRT" duration-ms="4287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@4e91d63f]" started-at="2022-10-29T21:31:59 TRT" name="addProductToCartWithoutRegister" finished-at="2022-10-29T21:32:12 TRT" duration-ms="13202" status="PASS">
+        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@6b26e945]" started-at="2022-10-31T16:39:03 TRT" name="addProductToCartWithoutRegister" finished-at="2022-10-31T16:39:17 TRT" duration-ms="13762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithoutRegister -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithoutRegistrationTest@6b26e945]" started-at="2022-10-31T16:39:17 TRT" name="quit" finished-at="2022-10-31T16:39:17 TRT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
       </class> <!-- tests.WithoutRegistrationTest -->
     </test> <!-- A101-Final-Case-Automation -->
   </suite> <!-- Default Suite -->

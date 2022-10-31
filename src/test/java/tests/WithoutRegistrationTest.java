@@ -2,6 +2,7 @@ package tests;
 
 
 import log.Log;
+import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.*;
 import testNG.CartPage;
 import testNG.HomePage;
@@ -15,6 +16,7 @@ public class WithoutRegistrationTest extends BaseTest{
     ProductDetails productDetails;
     CartPage cartPage;
     Log log;
+
 
 
     @Test

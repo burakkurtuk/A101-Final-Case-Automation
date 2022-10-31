@@ -8,7 +8,8 @@ public class HomePage extends BaseFunctions {
         super(driver);
     }
 
-    By searchFieldLocator = By.cssSelector("input[class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']");
+//    By searchFieldLocator = By.cssSelector("input[class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']");
+    By searchFieldLocator = By.className("desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b");
     By searchButtonLocator = By.cssSelector("div[class='SearchBoxOld-cHxjyU99nxdIaAbGyX7F']");
     By cookieLocator = By.cssSelector("button[id='onetrust-accept-btn-handler']");
 
