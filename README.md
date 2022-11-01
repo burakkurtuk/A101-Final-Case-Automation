@@ -7,8 +7,9 @@ https://user-images.githubusercontent.com/107056455/199227751-ffe6dba4-8174-4205
 
 <h3>About The Project</h3>
 
-Official website - Hepsiburada test automation made by Java/Selenium/TestNG. It tests the product is correct and sellers are different.
-In first case verifes that user is logged-in, correct product added to cart and sellers are different.
+Official website - Hepsiburada test automation made by Java/Selenium/TestNG. It tests the product which selected is correct and sellers are different.
+In first case verifies that user is logged-in, correct product added to cart and sellers are different.
+In second case virifies that correct product added to cart and sellers are different.
 
 
 <h4>Scenario 1: Navigate to site, verify that user logged-in, the product is correct and sellers are diffrent<h4>
