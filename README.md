@@ -38,7 +38,7 @@ In first case verifes that user is logged-in, correct product added to cart and 
 - <sub> Verify sellers are diffrent and product is correct
 
 
-#### Buith With
+#### Built With
 * **Selenium-Java**
 * **Selenium-Chrome-Driver**
 * **WebDriverManager**
