@@ -22,7 +22,7 @@ public class CartPage extends BaseFunctions {
 
     /**
      * @throws InterruptedException
-     * @method "goToCart" directs to cartPage and verifies that sellers are different
+     * @method "goToCart" directs to cartPage and verifies that product is correct and sellers are different
      */
     public void goToCart() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
