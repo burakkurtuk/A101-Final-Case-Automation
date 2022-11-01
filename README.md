@@ -22,21 +22,21 @@ In second case virifies that correct product added to cart and sellers are diffe
 - <sub> Search for the product
 - <sub> Click the product
 - <sub> Click all sellers
-- <sub> Add the product to cart from two diffrent sellers
+- <sub> Add the product to cart from two different sellers
 - <sub> Scroll up and click to shopping cart button to view
-- <sub> Verify sellers are diffrent and product is correct
+- <sub> Verify sellers are different and product is correct
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h4>Scenario 2: Navigate to site, verify that the product is correct and sellers are diffrent<h4>
+<h4>Scenario 2: Navigate to site, verify that the product is correct and sellers are different<h4>
 
 - <sub> Close Cookie
 - <sub> Search for the product
 - <sub> Click the product
 - <sub> Click all sellers
-- <sub> Add the product to cart from two diffrent sellers
+- <sub> Add the product to cart from two different sellers
 - <sub> Scroll up and click to shopping cart button to view
-- <sub> Verify sellers are diffrent and product is correct
+- <sub> Verify sellers are different and product is correct
 
 
 #### Built With
