@@ -1,0 +1,14 @@
+2022-11-01 13:48:24,430 INFO  [Log] Navigated to site 
+2022-11-01 13:48:35,564 INFO  [Log] Navigated to site 
+2022-11-01 13:48:35,932 INFO  [Log] Searched for the product 
+2022-11-01 13:48:45,870 INFO  [Log] The product is chosen and added to cart  
+2022-11-01 13:48:49,464 INFO  [Log] Navigated to cart and verified that sellers are different 
+2022-11-01 14:46:07,586 INFO  [Log] Navigated to site 
+2022-11-01 14:46:18,367 INFO  [Log] User login completed and verified 
+2022-11-01 14:46:18,618 INFO  [Log] Searched for the product 
+2022-11-01 14:46:28,457 INFO  [Log] The product is chosen and added to cart 
+2022-11-01 14:46:32,193 INFO  [Log] Navigated to cart and verified that product is correct and sellers are different 
+2022-11-01 14:46:35,855 INFO  [Log] Navigated to site 
+2022-11-01 14:46:36,108 INFO  [Log] Searched for the product 
+2022-11-01 14:46:44,546 INFO  [Log] The product is chosen and added to cart  
+2022-11-01 14:46:48,156 INFO  [Log] Navigated to cart and verified that product is correct and sellers are different 
