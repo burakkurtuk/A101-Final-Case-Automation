@@ -36,7 +36,6 @@ public class BaseFunctions {
 
     public void waitFor(int time) throws InterruptedException {
         Thread.sleep(time);
-
     }
 
     public String getText(By locator) {
