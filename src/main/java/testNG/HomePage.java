@@ -21,7 +21,5 @@ public class HomePage extends BaseFunctions {
         click(searchButtonLocator);
 
     }
-
-
 }
 

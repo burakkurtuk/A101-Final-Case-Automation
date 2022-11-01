@@ -33,7 +33,7 @@ public class CartPage extends BaseFunctions {
         waitFor(2000);
         Assertions.assertEquals(getText(firstSeller), "Gokkusagibilgisayar");
         Assertions.assertEquals(getText(secondSeller), "Hepsiburada");
-        Assertions.assertEquals(getText(productInf),"MSI Nvidia GeForce RTX 3090 Surprim X 24GB OC 384Bit GDDR6X PCI-E 4.0 Ekran Kartı (GEFORCE RTX 3090 SUPRIM X 24G)");
+        Assertions.assertEquals(getText(productInf), "MSI Nvidia GeForce RTX 3090 Surprim X 24GB OC 384Bit GDDR6X PCI-E 4.0 Ekran Kartı (GEFORCE RTX 3090 SUPRIM X 24G)");
 
     }
 }

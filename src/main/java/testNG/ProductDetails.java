@@ -14,7 +14,6 @@ public class ProductDetails extends BaseFunctions {
     }
 
     By product = By.partialLinkText("MSI Nvidia GeForce RTX 3090 Surprim X 24GB OC");
-    //    By allSellers = By.cssSelector("a[class='optionsLength']");
     By allSellers = By.className("optionsLength");
     By addToCart = By.xpath("(//button[@class='add-to-basket button'])[1]");
     By addToCart2 = By.xpath("(//button[@class='add-to-basket button'])[2]");
@@ -35,7 +34,6 @@ public class ProductDetails extends BaseFunctions {
         waitFor(1500);
         click(addToCart2);
         waitFor(1000);
-
 
     }
 }

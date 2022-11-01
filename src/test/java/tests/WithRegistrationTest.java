@@ -34,7 +34,6 @@ public class WithRegistrationTest extends BaseTest {
         log.info("The product is chosen and added to cart");
         cartPage.goToCart();
         log.info("Navigated to cart and verified that product is correct and sellers are different");
+
     }
-
-
 }

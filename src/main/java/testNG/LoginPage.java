@@ -46,6 +46,4 @@ public class LoginPage extends BaseFunctions {
         Assertions.assertEquals(getText(userInformation), "Burak Kurt");
 
     }
-
-
 }
