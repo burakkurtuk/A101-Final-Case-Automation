@@ -1,5 +1,6 @@
 package testNG;
 
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -20,18 +21,18 @@ public class CartPage extends BaseFunctions {
     By secondSeller = By.xpath("(//span[@class='merchantLink_2Ii8s'])[2]");
 
     /**
-     * @method "goToCart" directs to cartPage and verifies that sellers are different
      * @throws InterruptedException
+     * @method "goToCart" directs to cartPage and verifies that sellers are different
      */
     public void goToCart() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement shopCart = driver.findElement(shoppingCart);
-        js.executeScript("arguments[0].scrollIntoView();",shopCart);
+        js.executeScript("arguments[0].scrollIntoView();", shopCart);
         waitFor(1000);
         click(shoppingCart);
         waitFor(2000);
-        Assertion(driver.findElement(firstSeller),"Gokkusagibilgisayar" );
-        Assertion(driver.findElement(secondSeller), "Hepsiburada");
+        Assertions.assertEquals(getText(firstSeller), "Gokkusagibilgisayar");
+        Assertions.assertEquals(getText(secondSeller), "Hepsiburada");
 
     }
 }

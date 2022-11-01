@@ -24,10 +24,9 @@ public class LoginPage extends BaseFunctions {
     By userInformation = By.className("sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR");
 
 
-
     /**
-     * @method "login" is to find login button, send texts to email and password inputs
      * @throws InterruptedException
+     * @method "login" is to find login button, send texts to email and password inputs
      */
     public void login() throws InterruptedException {
         Actions actions = new Actions(driver);
@@ -44,7 +43,7 @@ public class LoginPage extends BaseFunctions {
         waitFor(500);
         click(loginButton2);
         waitFor(5000);
-        Assertions.assertEquals(getText(userInformation),"Burak Kurt");
+        Assertions.assertEquals(getText(userInformation), "Burak Kurt");
 
     }
 

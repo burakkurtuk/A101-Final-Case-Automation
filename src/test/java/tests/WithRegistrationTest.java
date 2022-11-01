@@ -8,7 +8,7 @@ import testNG.HomePage;
 import testNG.LoginPage;
 import testNG.ProductDetails;
 
-public class WithRegistrationTest extends BaseTest{
+public class WithRegistrationTest extends BaseTest {
 
 
     LoginPage loginPage;
@@ -16,8 +16,6 @@ public class WithRegistrationTest extends BaseTest{
     ProductDetails productDetails;
     CartPage cartPage;
     Log log;
-
-
 
 
     @Test

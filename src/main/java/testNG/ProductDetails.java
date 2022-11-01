@@ -14,14 +14,14 @@ public class ProductDetails extends BaseFunctions {
     }
 
     By product = By.partialLinkText("MSI Nvidia GeForce RTX 3090 Surprim X 24GB OC");
-//    By allSellers = By.cssSelector("a[class='optionsLength']");
+    //    By allSellers = By.cssSelector("a[class='optionsLength']");
     By allSellers = By.className("optionsLength");
     By addToCart = By.xpath("(//button[@class='add-to-basket button'])[1]");
     By addToCart2 = By.xpath("(//button[@class='add-to-basket button'])[2]");
 
     /**
-     * @method "chooseProduct" the product is chosen and added to cart
      * @throws InterruptedException
+     * @method "chooseProduct" the product is chosen and added to cart
      */
     public void chooseProduct() throws InterruptedException {
         waitFor(1000);

@@ -7,15 +7,13 @@ import testNG.CartPage;
 import testNG.HomePage;
 import testNG.ProductDetails;
 
-public class WithoutRegistrationTest extends BaseTest{
-
+public class WithoutRegistrationTest extends BaseTest {
 
 
     HomePage homePage;
     ProductDetails productDetails;
     CartPage cartPage;
     Log log;
-
 
 
     @Test

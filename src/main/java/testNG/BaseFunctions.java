@@ -44,10 +44,5 @@ public class BaseFunctions {
         return find(locator).getText();
     }
 
-    public void Assertion(WebElement actual, String expected) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        wait.until(ExpectedConditions.visibilityOf(actual));
-        Assert.assertEquals(actual.getText(), expected);
-    }
 
 }
