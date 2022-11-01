@@ -18,7 +18,7 @@ In second case virifies that correct product added to cart and sellers are diffe
 - <sub> Navigate to login page   
 - <sub> Write username and password
 - <sub> Verify if user logged-in
-- <sub> Close Cookie
+- <sub> Accept Cookie
 - <sub> Search for the product
 - <sub> Click the product
 - <sub> Click all sellers
@@ -30,7 +30,7 @@ In second case virifies that correct product added to cart and sellers are diffe
 
 <h4>Scenario 2: Navigate to site, verify that the product is correct and sellers are different<h4>
 
-- <sub> Close Cookie
+- <sub> Accept Cookie
 - <sub> Search for the product
 - <sub> Click the product
 - <sub> Click all sellers
