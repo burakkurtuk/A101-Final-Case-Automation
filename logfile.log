@@ -1,0 +1,9 @@
+2022-11-01 17:08:05,054 INFO  [Log] Navigated to site 
+2022-11-01 17:08:15,196 INFO  [Log] User login completed and verified 
+2022-11-01 17:08:15,519 INFO  [Log] Searched for the product 
+2022-11-01 17:08:24,852 INFO  [Log] The product is chosen and added to cart 
+2022-11-01 17:08:28,435 INFO  [Log] Navigated to cart and verified that product is correct and sellers are different 
+2022-11-01 17:08:32,018 INFO  [Log] Navigated to site 
+2022-11-01 17:08:32,221 INFO  [Log] Searched for the product 
+2022-11-01 17:08:40,426 INFO  [Log] The product is chosen and added to cart  
+2022-11-01 17:08:44,056 INFO  [Log] Navigated to cart and verified that product is correct and sellers are different 
