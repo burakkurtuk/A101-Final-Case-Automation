@@ -30,6 +30,7 @@ In second case virifies that correct product added to cart and sellers are diffe
 
 <h4>Scenario 2: Navigate to site, verify that the product is correct and sellers are different<h4>
 
+- <sub> Navigate to url
 - <sub> Accept Cookie
 - <sub> Search for the product
 - <sub> Click the product
