@@ -4,13 +4,13 @@
   <test thread-count="5" name="Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.WithRegistrationTest">
+      <class name="tests.WithoutRegistrationTest">
         <methods>
-          <include name="addProductToCartWithRegister"/>
+          <include name="addProductToCartWithoutRegister"/>
           <include name="quit"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- tests.WithRegistrationTest -->
+      </class> <!-- tests.WithoutRegistrationTest -->
     </classes>
   </test> <!-- Tests(failed) -->
 </suite> <!-- Failed suite [Single Thread All Test Cases] -->

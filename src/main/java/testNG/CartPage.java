@@ -31,9 +31,9 @@ public class CartPage extends BaseFunctions {
         waitFor(1000);
         click(shoppingCart);
         waitFor(2000);
-        Assertions.assertEquals(getText(firstSeller), "Gokkusagibilgisayar");
-        Assertions.assertEquals(getText(secondSeller), "Hepsiburada");
-        Assertions.assertEquals(getText(productInf), "MSI Nvidia GeForce RTX 3090 Surprim X 24GB OC 384Bit GDDR6X PCI-E 4.0 Ekran Kartı (GEFORCE RTX 3090 SUPRIM X 24G)");
+        Assertions.assertEquals(getText(firstSeller), "Tempo Bilgisayar");
+        Assertions.assertEquals(getText(secondSeller), "Hesaplı Teknolojim");
+        Assertions.assertEquals(getText(productInf), "MSI GeForce RTX 3090 Ti Gaming X Trio 24G 24GB GDDR6X 384 Bit Ekran Kartı");
 
     }
 }
