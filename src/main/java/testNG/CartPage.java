@@ -31,9 +31,9 @@ public class CartPage extends BaseFunctions {
         waitFor(1000);
         click(shoppingCart);
         waitFor(2000);
-        Assertions.assertEquals(getText(firstSeller), "Tempo Bilgisayar");
-        Assertions.assertEquals(getText(secondSeller), "Hesaplı Teknolojim");
-        Assertions.assertEquals(getText(productInf), "MSI GeForce RTX 3090 Ti Gaming X Trio 24G 24GB GDDR6X 384 Bit Ekran Kartı");
+        Assertions.assertEquals(getText(firstSeller), "Hepsiburada");
+        Assertions.assertEquals(getText(secondSeller), "Bytekbilgisayar");
+        Assertions.assertEquals(getText(productInf), "MSI VGA GeForce RTX 3090 Ti Black Trio 24G RTX3090 24GB GDDR6X 384B DX12 Pcıe 4.0 X16 (3xDP 1xHDMI) Ekran Kartı");
 
     }
 }

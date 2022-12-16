@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-29T20:44:59 TRT" name="Default Suite" finished-at="2022-10-29T20:45:23 TRT" duration-ms="24507">
+  <suite started-at="2022-12-16T14:17:57 TRT" name="Default Suite" finished-at="2022-12-16T14:18:30 TRT" duration-ms="33930">
     <groups>
     </groups>
-    <test started-at="2022-10-29T20:44:59 TRT" name="A101-Final-Case-Automation" finished-at="2022-10-29T20:45:23 TRT" duration-ms="24507">
+    <test started-at="2022-12-16T14:17:57 TRT" name="A101-Final-Case-Automation" finished-at="2022-12-16T14:18:30 TRT" duration-ms="33930">
       <class name="tests.WithRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@7a4ccb53]" started-at="2022-10-29T20:44:59 TRT" name="setUp" finished-at="2022-10-29T20:45:03 TRT" duration-ms="4357" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@18ce0030]" started-at="2022-12-16T14:17:57 TRT" name="setUp" finished-at="2022-12-16T14:18:01 TRT" duration-ms="4558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@7a4ccb53]" started-at="2022-10-29T20:45:03 TRT" name="addProductToCartWithRegister" finished-at="2022-10-29T20:45:23 TRT" duration-ms="20131" status="PASS">
+        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@18ce0030]" started-at="2022-12-16T14:18:01 TRT" name="addProductToCartWithRegister" finished-at="2022-12-16T14:18:30 TRT" duration-ms="29353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithRegister -->

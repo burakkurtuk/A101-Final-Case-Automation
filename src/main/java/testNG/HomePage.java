@@ -3,6 +3,8 @@ package testNG;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.util.Scanner;
+
 public class HomePage extends BaseFunctions {
     public HomePage(WebDriver driver) {
         super(driver);
@@ -16,8 +18,9 @@ public class HomePage extends BaseFunctions {
      * @method "searchProduct" searching for the product
      */
     public void searchProduct() {
+        Scanner sc = new Scanner(System.in);
         click(cookieLocator);
-        type(searchFieldLocator, "Rtx 3090");
+        type(searchFieldLocator,"Rtx 3090" );
         click(searchButtonLocator);
 
     }

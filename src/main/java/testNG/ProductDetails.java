@@ -13,7 +13,7 @@ public class ProductDetails extends BaseFunctions {
         super(driver);
     }
 
-    By product = By.partialLinkText("MSI GeForce RTX 3090 Ti Gaming X Trio");
+    By product = By.partialLinkText("MSI VGA GeForce RTX 3090 Ti Black Trio 24G");
     By allSellers = By.className("optionsLength");
     By addToCart = By.xpath("(//button[@class='add-to-basket button'])[1]");
     By addToCart2 = By.xpath("(//button[@class='add-to-basket button'])[2]");

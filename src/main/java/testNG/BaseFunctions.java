@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 
+
 public class BaseFunctions {
 
 
@@ -41,5 +42,7 @@ public class BaseFunctions {
     public String getText(By locator) {
         return find(locator).getText();
     }
+
+
 
 }

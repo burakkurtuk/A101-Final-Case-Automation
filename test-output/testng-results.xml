@@ -1,35 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-04T01:01:04 TRT" name="Single Thread All Test Cases" finished-at="2022-11-04T01:01:54 TRT" duration-ms="50011">
+  <suite started-at="2022-12-16T14:20:24 TRT" name="Single Thread All Test Cases" finished-at="2022-12-16T14:21:04 TRT" duration-ms="40253">
     <groups>
     </groups>
-    <test started-at="2022-11-04T01:01:04 TRT" name="Tests" finished-at="2022-11-04T01:01:54 TRT" duration-ms="50011">
+    <test started-at="2022-12-16T14:20:24 TRT" name="Tests" finished-at="2022-12-16T14:21:04 TRT" duration-ms="40253">
       <class name="tests.WithRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@18ce0030]" started-at="2022-11-04T01:01:04 TRT" name="setUp" finished-at="2022-11-04T01:01:08 TRT" duration-ms="4210" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@12b0404f]" started-at="2022-12-16T14:20:24 TRT" name="setUp" finished-at="2022-12-16T14:20:29 TRT" duration-ms="4651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@18ce0030]" started-at="2022-11-04T01:01:08 TRT" name="addProductToCartWithRegister" finished-at="2022-11-04T01:01:37 TRT" duration-ms="28359" status="PASS">
+        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@12b0404f]" started-at="2022-12-16T14:20:29 TRT" name="addProductToCartWithRegister" finished-at="2022-12-16T14:20:43 TRT" duration-ms="14833" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: txtPassword (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: txtPassword (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at testNG.BaseFunctions.find(BaseFunctions.java:26)
+at testNG.BaseFunctions.type(BaseFunctions.java:35)
+at testNG.LoginPage.login(LoginPage.java:42)
+at tests.WithRegistrationTest.addProductToCartWithRegister(WithRegistrationTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e47d5fecc3879befe8eb8224b6aa47c, findElement {using=id, value=txtPassword}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:8762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8762/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e47d5fecc3879befe8eb8224b6aa47c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithRegister -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithRegistrationTest@18ce0030]" started-at="2022-11-04T01:01:37 TRT" name="quit" finished-at="2022-11-04T01:01:37 TRT" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithRegistrationTest@12b0404f]" started-at="2022-12-16T14:20:43 TRT" name="quit" finished-at="2022-12-16T14:20:43 TRT" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- tests.WithRegistrationTest -->
       <class name="tests.WithoutRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@6dbb137d]" started-at="2022-11-04T01:01:37 TRT" name="setUp" finished-at="2022-11-04T01:01:41 TRT" duration-ms="3654" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@1ffe63b9]" started-at="2022-12-16T14:20:43 TRT" name="setUp" finished-at="2022-12-16T14:20:48 TRT" duration-ms="4855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@6dbb137d]" started-at="2022-11-04T01:01:41 TRT" name="addProductToCartWithoutRegister" finished-at="2022-11-04T01:01:54 TRT" duration-ms="13598" status="PASS">
+        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@1ffe63b9]" started-at="2022-12-16T14:20:48 TRT" name="addProductToCartWithoutRegister" finished-at="2022-12-16T14:21:04 TRT" duration-ms="15768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithoutRegister -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithoutRegistrationTest@6dbb137d]" started-at="2022-11-04T01:01:54 TRT" name="quit" finished-at="2022-11-04T01:01:54 TRT" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.WithoutRegistrationTest@1ffe63b9]" started-at="2022-12-16T14:21:04 TRT" name="quit" finished-at="2022-12-16T14:21:04 TRT" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
