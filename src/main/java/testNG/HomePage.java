@@ -10,15 +10,14 @@ public class HomePage extends BaseFunctions {
         super(driver);
     }
 
-    By searchFieldLocator = By.className("desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b");
-    By searchButtonLocator = By.cssSelector("div[class='SearchBoxOld-cHxjyU99nxdIaAbGyX7F']");
+    By searchFieldLocator = By.cssSelector("input[type='text']");
+    By searchButtonLocator = By.cssSelector("div[class='searchBoxOld-yDJzsIfi_S5gVgoapx6f']");
     By cookieLocator = By.cssSelector("button[id='onetrust-accept-btn-handler']");
 
     /**
      * @method "searchProduct" searching for the product
      */
     public void searchProduct() {
-        Scanner sc = new Scanner(System.in);
         click(cookieLocator);
         type(searchFieldLocator,"Rtx 3090" );
         click(searchButtonLocator);
