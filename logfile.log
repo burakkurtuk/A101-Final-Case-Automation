@@ -116,3 +116,7 @@
 2023-01-03 20:23:54,885 INFO  [Log] Searched for the product 
 2023-01-03 20:24:03,208 INFO  [Log] The product is chosen and added to cart  
 2023-01-03 20:24:07,475 INFO  [Log] Navigated to cart and verified that product is correct and sellers are different 
+2023-01-06 16:28:51,466 INFO  [Log] Navigated to site 
+2023-01-06 16:28:55,613 INFO  [Log] Searched for the product 
+2023-01-06 16:29:04,904 INFO  [Log] The product is chosen and added to cart  
+2023-01-06 16:29:08,867 INFO  [Log] Navigated to cart and verified that product is correct and sellers are different 
