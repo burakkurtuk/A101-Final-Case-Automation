@@ -13,7 +13,7 @@ public class ProductDetails extends BaseFunctions {
         super(driver);
     }
 
-    By product = By.partialLinkText("Gigabyte Nvidia GeForce RTX 3090 24GB");
+    By product = By.partialLinkText("ASUS GEFORCE RTX 4070 TI TUF-RTX4070TI-O12G-GAMING");
     By allSellers = By.className("optionsLength");
     By addToCart = By.xpath("(//button[@class='add-to-basket button'])[1]");
     By addToCart2 = By.xpath("(//button[@class='add-to-basket button'])[2]");

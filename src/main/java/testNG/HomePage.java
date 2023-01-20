@@ -19,7 +19,7 @@ public class HomePage extends BaseFunctions {
      */
     public void searchProduct() {
         click(cookieLocator);
-        type(searchFieldLocator,"Rtx 3090" );
+        type(searchFieldLocator,"Rtx 4070 ti" );
         click(searchButtonLocator);
 
     }

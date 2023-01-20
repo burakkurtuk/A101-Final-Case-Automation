@@ -31,9 +31,9 @@ public class CartPage extends BaseFunctions {
         waitFor(1000);
         click(shoppingCart);
         waitFor(2000);
-        Assertions.assertEquals(getText(firstSeller), "Astbilgisayar");
+        Assertions.assertEquals(getText(firstSeller), "Vizyon Bilgisayar");
         Assertions.assertEquals(getText(secondSeller), "Hepsiburada");
-        Assertions.assertEquals(getText(productInf), "Gigabyte Nvidia GeForce RTX 3090 24GB (OC) 384Bit GDDR6X PCI-Express 4.0 Ekran Kartı (GV-N3090GAMING OC-24GD)");
+        Assertions.assertEquals(getText(productInf), "ASUS GEFORCE RTX 4070 TI TUF-RTX4070TI-O12G-GAMING 12GB GDDR6X 192bit 2760MHz OC 2xHDMI 3xDP RGB EKRAN KARTI");
 
     }
 }

@@ -6,6 +6,7 @@
       <class name="tests.WithoutRegistrationTest">
         <methods>
           <include name="addProductToCartWithoutRegister"/>
+          <include name="quit"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.WithoutRegistrationTest -->
