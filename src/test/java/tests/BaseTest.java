@@ -18,6 +18,7 @@ public class BaseTest {
     @BeforeClass
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
         options.addArguments("--start-maximized");
         options.addArguments("--incognito");
         options.addArguments("--disable-blink-features");
@@ -30,9 +31,9 @@ public class BaseTest {
         log.info("Navigated to site");
     }
 
-    @AfterClass
-    public void quit() {
-        driver.quit();
-    }
+//    @AfterClass
+//    public void quit() {
+//        driver.quit();
+//    }
 
 }

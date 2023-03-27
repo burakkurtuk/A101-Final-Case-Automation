@@ -11,6 +11,13 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.WithRegistrationTest -->
+      <class name="tests.WithoutRegistrationTest">
+        <methods>
+          <include name="addProductToCartWithoutRegister"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.WithoutRegistrationTest -->
     </classes>
   </test> <!-- Tests(failed) -->
 </suite> <!-- Failed suite [Single Thread All Test Cases] -->

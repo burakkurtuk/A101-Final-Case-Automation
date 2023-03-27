@@ -2,6 +2,7 @@ package testNG;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,8 +14,9 @@ public class ProductDetails extends BaseFunctions {
         super(driver);
     }
 
-    By product = By.partialLinkText("ASUS GEFORCE RTX 4070 TI TUF-RTX4070TI-O12G-GAMING");
+    By product = By.partialLinkText("Watch Se Gps 44MM");
     By allSellers = By.className("optionsLength");
+    By repairPack = By.cssSelector("a[class='deny-text']");
     By addToCart = By.xpath("(//button[@class='add-to-basket button'])[1]");
     By addToCart2 = By.xpath("(//button[@class='add-to-basket button'])[2]");
 
@@ -32,6 +34,8 @@ public class ProductDetails extends BaseFunctions {
         waitFor(1000);
         click(addToCart);
         waitFor(2000);
+        click(repairPack);
+        waitFor(1000);
         click(addToCart2);
         waitFor(1500);
 

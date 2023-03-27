@@ -17,9 +17,9 @@ public class HomePage extends BaseFunctions {
     /**
      * @method "searchProduct" searching for the product
      */
-    public void searchProduct() {
+    public void searchProduct() throws InterruptedException {
         click(cookieLocator);
-        type(searchFieldLocator,"Rtx 4070 ti" );
+        type(searchFieldLocator,"Apple Watch" );
         click(searchButtonLocator);
 
     }
