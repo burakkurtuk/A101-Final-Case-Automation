@@ -17,9 +17,9 @@ public class LoginPage extends BaseFunctions {
 
     By myAccount = By.cssSelector("div[id='myAccount']");
     By login = By.id("login");
-    By username = By.id("txtUserName");
+    By usernameLocator = By.id("txtUserName");
     By loginButton1 = By.id("btnLogin");
-    By password = By.id("txtPassword");
+    By passwordLocator = By.id("txtPassword");
     By loginButton2 = By.id("btnEmailSelect");
     By userInformation = By.className("sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR");
 
@@ -28,22 +28,23 @@ public class LoginPage extends BaseFunctions {
      * @throws InterruptedException
      * @method "login" verify if user logged-in, find login button, send texts to email and password inputs
      */
-    public void login() throws InterruptedException {
+    public void login(String username, String password) throws InterruptedException {
         Actions actions = new Actions(driver);
         List<WebElement> myAcc = driver.findElements(myAccount);
         actions.moveToElement(myAcc.get(0)).perform();
         waitFor(500);
         click(login);
         waitFor(500);
-        type(username, "USERNAME");
+        type(usernameLocator, username);
         waitFor(500);
         click(loginButton1);
         waitFor(500);
-        type(password, "PASSWORD");
+        type(passwordLocator, password);
         waitFor(500);
         click(loginButton2);
         waitFor(5000);
         Assertions.assertEquals(getText(userInformation), "Burak Kurt");
+
 
     }
 }

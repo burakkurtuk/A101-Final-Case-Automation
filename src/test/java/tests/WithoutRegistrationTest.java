@@ -22,7 +22,6 @@ public class WithoutRegistrationTest extends BaseTest {
         productDetails = new ProductDetails(driver);
         cartPage = new CartPage(driver);
         log = new Log();
-
         homePage.searchProduct();
         log.info("Searched for the product");
         productDetails.chooseProduct();

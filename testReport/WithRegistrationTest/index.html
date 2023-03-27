@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_Suite" class="navigator-link ">
-                    <span>C:\Users\burak\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml</span>
+                    <span>C:\Users\burak\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,31 +129,22 @@
                   <a name="addProductToCartWithRegister">
                   </a> <!-- addProductToCartWithRegister -->
                   <span class="method-name">addProductToCartWithRegister</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-bind=&quot;click: function() { return true;}, clickBubble: false&quot; class=&quot;add-to-basket button small&quot;&gt;...&lt;/button&gt; is not clickable at point (1785, 1185). Other element would receive the click: &lt;div class=&quot;checkoutui-Modal-1Myi1 checkoutui-Modal-2vGqO&quot; data-test-class=&quot;modal_overflow&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=106.0.5249.119)
-Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: login (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a64e427cb217a1c8c21661861a09a8bf, clickElement {id=b75f38dc-1b66-451d-9388-747248b8b1f2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11536/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (a64e427cb217a1c8c21661861a09a8bf)] -&gt; xpath: (//button[@class=&apos;add-to-basket button small&apos;])[1]]
-Session ID: a64e427cb217a1c8c21661861a09a8bf
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:2748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2748/devtool..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12d961e95fe3152c1022e4314409d2c7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at testNG.BaseFunctions.find(BaseFunctions.java:26)
 	at testNG.BaseFunctions.click(BaseFunctions.java:31)
-	at testNG.ProductDetails.chooseProduct(ProductDetails.java:31)
-	at tests.WithRegistrationTest.addProductToCartWithRegister(WithRegistrationTest.java:35)
+	at testNG.LoginPage.login(LoginPage.java:38)
+	at tests.WithRegistrationTest.addProductToCartWithRegister(WithRegistrationTest.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 25 stack frames
+... Removed 22 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -162,7 +153,7 @@ Session ID: a64e427cb217a1c8c21661861a09a8bf
         </div> <!-- panel Default_Suite -->
         <div panel-name="test-xml-Default_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\burak\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\burak\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -215,12 +206,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addProductToCartWithRegister')
 data.setCell(0, 2, 'tests.WithRegistrationTest')
-data.setCell(0, 3, 17863);
+data.setCell(0, 3, 11102);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -255,7 +246,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">addProductToCartWithRegister</span>
-                <span class="method-start">4098 ms</span>
+                <span class="method-start">7953 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

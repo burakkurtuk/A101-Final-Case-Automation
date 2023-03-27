@@ -33,9 +33,7 @@ public class ProductDetails extends BaseFunctions {
         click(allSellers);
         waitFor(1000);
         click(addToCart);
-        waitFor(2000);
-        click(repairPack);
-        waitFor(1000);
+        waitFor(1500);
         click(addToCart2);
         waitFor(1500);
 
