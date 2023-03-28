@@ -126,31 +126,6 @@
           <div class="suite-Single_Thread_All_Test_Cases-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">tests.WithRegistrationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addProductToCartWithRegister">
-                  </a> <!-- addProductToCartWithRegister -->
-                  <span class="method-name">addProductToCartWithRegister</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Driver must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:60)
-	at testNG.LoginPage.login(LoginPage.java:32)
-	at tests.WithRegistrationTest.addProductToCartWithRegister(WithRegistrationTest.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Single_Thread_All_Test_Cases-class-failed -->
-          <div class="suite-Single_Thread_All_Test_Cases-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">tests.WithoutRegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -159,19 +134,82 @@
                   <a name="addProductToCartWithoutRegister">
                   </a> <!-- addProductToCartWithoutRegister -->
                   <span class="method-name">addProductToCartWithoutRegister</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:97)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:77)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:46)
-	at testNG.BaseFunctions.find(BaseFunctions.java:25)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.partialLinkText: Watch Se Gps 44MM (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at testNG.BaseFunctions.find(BaseFunctions.java:26)
 	at testNG.BaseFunctions.click(BaseFunctions.java:31)
-	at testNG.HomePage.searchProduct(HomePage.java:21)
-	at tests.WithoutRegistrationTest.addProductToCartWithoutRegister(WithoutRegistrationTest.java:26)
+	at testNG.ProductDetails.chooseProduct(ProductDetails.java:29)
+	at tests.WithoutRegistrationTest.addProductToCartWithoutRegister(WithoutRegistrationTest.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 22 stack frames
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.111)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e954f0008618806ecb02f451a61da4b, findElement {using=partial link text, value=Watch Se Gps 44MM}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11765/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e954f0008618806ecb02f451a61da4b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 29 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single_Thread_All_Test_Cases-class-failed -->
+          <div class="suite-Single_Thread_All_Test_Cases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.WithRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCartWithRegister">
+                  </a> <!-- addProductToCartWithRegister -->
+                  <span class="method-name">addProductToCartWithRegister</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-bind=&quot;click: function() { return true;}, clickBubble: false&quot; class=&quot;add-to-basket button&quot;&gt;...&lt;/button&gt; is not clickable at point (1780, 98). Other element would receive the click: &lt;div class=&quot;notification-overlay active&quot; style=&quot;z-index: 999;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=111.0.5563.111)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f4a2f3af64a5b657fbefb7b1c5b49e7, clickElement {id=4053b97b-845b-40a6-8090-9a810dc69a81}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\burak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11565/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0f4a2f3af64a5b657fbefb7b1c5b49e7)] -&gt; xpath: (//button[@class=&apos;add-to-basket button&apos;])[2]]
+Session ID: 0f4a2f3af64a5b657fbefb7b1c5b49e7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at testNG.BaseFunctions.click(BaseFunctions.java:31)
+	at testNG.ProductDetails.chooseProduct(ProductDetails.java:37)
+	at tests.WithRegistrationTest.addProductToCartWithRegister(WithRegistrationTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -233,18 +271,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addProductToCartWithoutRegister')
-data.setCell(0, 2, 'tests.WithoutRegistrationTest')
-data.setCell(0, 3, 9);
+data.setCell(0, 1, 'addProductToCartWithRegister')
+data.setCell(0, 2, 'tests.WithRegistrationTest')
+data.setCell(0, 3, 30034);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addProductToCartWithRegister')
-data.setCell(1, 2, 'tests.WithRegistrationTest')
-data.setCell(1, 3, 8);
+data.setCell(1, 1, 'addProductToCartWithoutRegister')
+data.setCell(1, 2, 'tests.WithoutRegistrationTest')
+data.setCell(1, 3, 27867);
 window.suiteTableData['Single_Thread_All_Test_Cases']= { tableData: data, tableDiv: 'times-div-Single_Thread_All_Test_Cases'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 ms</span>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
               <div id="times-div-Single_Thread_All_Test_Cases">
               </div> <!-- times-div-Single_Thread_All_Test_Cases -->
             </div> <!-- times-div -->
@@ -279,33 +317,21 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">addProductToCartWithRegister</span>
-                <span class="method-start">7016 ms</span>
+                <span class="method-start">8670 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">quit</span>
-                <span class="method-start">7027 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.WithoutRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">7030 ms</span>
+                <span class="method-start">38709 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">addProductToCartWithoutRegister</span>
-                <span class="method-start">9174 ms</span>
+                <span class="method-start">47493 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">quit</span>
-                <span class="method-start">9185 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
