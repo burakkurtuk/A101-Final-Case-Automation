@@ -223,3 +223,8 @@
 2023-03-28 02:17:53,779 INFO  [Log] Searched for the product 
 2023-03-28 02:18:03,890 INFO  [Log] The product is chosen and added to cart  
 2023-03-28 02:18:10,713 INFO  [Log] Navigated to cart and verified that product is correct and sellers are different 
+2023-03-28 02:38:26,422 INFO  [Log] Navigated to site 
+2023-03-28 02:39:15,672 INFO  [Log] Navigated to site 
+2023-03-28 02:41:14,092 INFO  [Log] Navigated to site 
+2023-03-28 02:42:46,966 INFO  [Log] Navigated to site 
+2023-03-28 02:50:07,271 INFO  [Log] Navigated to site 

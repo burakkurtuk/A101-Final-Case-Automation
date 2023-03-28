@@ -28,18 +28,18 @@ public class LoginPage extends BaseFunctions {
      * @throws InterruptedException
      * @method "login" verify if user logged-in, find login button, send texts to email and password inputs
      */
-    public void login(String username, String password) throws InterruptedException {
+    public void login() throws InterruptedException {
         Actions actions = new Actions(driver);
         List<WebElement> myAcc = driver.findElements(myAccount);
         actions.moveToElement(myAcc.get(0)).perform();
         waitFor(500);
         click(login);
         waitFor(500);
-        type(usernameLocator, username);
+        type(usernameLocator, "username");
         waitFor(500);
         click(loginButton1);
         waitFor(500);
-        type(passwordLocator, password);
+        type(passwordLocator, "password");
         waitFor(500);
         click(loginButton2);
         waitFor(5000);

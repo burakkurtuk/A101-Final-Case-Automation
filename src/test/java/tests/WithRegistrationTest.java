@@ -8,11 +8,8 @@ import testNG.HomePage;
 import testNG.LoginPage;
 import testNG.ProductDetails;
 
-import java.util.Scanner;
-
 public class WithRegistrationTest extends BaseTest {
 
-    Scanner scanner = new Scanner(System.in);
 
     LoginPage loginPage;
     HomePage homePage;
@@ -28,11 +25,7 @@ public class WithRegistrationTest extends BaseTest {
         productDetails = new ProductDetails(driver);
         cartPage = new CartPage(driver);
         log = new Log();
-        System.out.println("Enter your username: ");
-        String username = scanner.nextLine();
-        System.out.println("Enter your password");
-        String password = scanner.nextLine();
-        loginPage.login(username, password);
+        loginPage.login();
         log.info("User login completed and verified");
         homePage.searchProduct();
         log.info("Searched for the product");
