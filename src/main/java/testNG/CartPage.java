@@ -35,8 +35,8 @@ public class CartPage extends BaseFunctions {
         waitFor(1000);
         click(shoppingCart);
         waitFor(2000);
-        Assertions.assertEquals(getText(firstSeller), "Troy Apple");
-        Assertions.assertEquals(getText(secondSeller), "Hepsiburada");
+        Assertions.assertEquals(getText(firstSeller), "Bt Teknoloji");
+        Assertions.assertEquals(getText(secondSeller), "Idefix");
         Assertions.assertEquals(getText(productInf), "Apple Watch Se Gps 44MM Silver Aluminium Case With White Sport Band - Regular MNK23TU/A");
 
     }
