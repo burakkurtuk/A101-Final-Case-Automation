@@ -35,11 +35,11 @@ public class LoginPage extends BaseFunctions {
         waitFor(500);
         click(login);
         waitFor(500);
-        type(usernameLocator, "testingbykurt@gmail.com");
+        type(usernameLocator, "USERNAME");
         waitFor(500);
         click(loginButton1);
         waitFor(500);
-        type(passwordLocator, "1122334455Bk");
+        type(passwordLocator, "PASSWORD");
         waitFor(500);
         click(loginButton2);
         waitFor(5000);
