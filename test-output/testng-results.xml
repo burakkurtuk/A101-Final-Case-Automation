@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-30T02:49:00 TRT" name="Single Thread All Test Cases" finished-at="2023-03-30T02:50:15 TRT" duration-ms="75136">
+  <suite started-at="2023-03-31T18:30:02 TRT" name="Single Thread All Test Cases" finished-at="2023-03-31T18:31:15 TRT" duration-ms="72584">
     <groups>
     </groups>
-    <test started-at="2023-03-30T02:49:00 TRT" name="Tests" finished-at="2023-03-30T02:50:15 TRT" duration-ms="75136">
+    <test started-at="2023-03-31T18:30:02 TRT" name="Tests" finished-at="2023-03-31T18:31:15 TRT" duration-ms="72584">
       <class name="tests.WithRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@3c9d0b9d]" started-at="2023-03-30T02:49:00 TRT" name="setUp" finished-at="2023-03-30T02:49:08 TRT" duration-ms="8209" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithRegistrationTest@6193932a]" started-at="2023-03-31T18:30:33 TRT" name="setUp" finished-at="2023-03-31T18:30:41 TRT" duration-ms="7951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@3c9d0b9d]" started-at="2023-03-30T02:49:08 TRT" name="addProductToCartWithRegister" finished-at="2023-03-30T02:49:46 TRT" duration-ms="37590" status="PASS">
+        <test-method signature="addProductToCartWithRegister()[pri:0, instance:tests.WithRegistrationTest@6193932a]" started-at="2023-03-31T18:30:41 TRT" name="addProductToCartWithRegister" finished-at="2023-03-31T18:31:15 TRT" duration-ms="33978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithRegister -->
       </class> <!-- tests.WithRegistrationTest -->
       <class name="tests.WithoutRegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@419c5f1a]" started-at="2023-03-30T02:49:46 TRT" name="setUp" finished-at="2023-03-30T02:49:51 TRT" duration-ms="5488" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WithoutRegistrationTest@d4342c2]" started-at="2023-03-31T18:30:02 TRT" name="setUp" finished-at="2023-03-31T18:30:11 TRT" duration-ms="8825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@419c5f1a]" started-at="2023-03-30T02:49:51 TRT" name="addProductToCartWithoutRegister" finished-at="2023-03-30T02:50:15 TRT" duration-ms="23823" status="PASS">
+        <test-method signature="addProductToCartWithoutRegister()[pri:0, instance:tests.WithoutRegistrationTest@d4342c2]" started-at="2023-03-31T18:30:11 TRT" name="addProductToCartWithoutRegister" finished-at="2023-03-31T18:30:33 TRT" duration-ms="21803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartWithoutRegister -->

@@ -3,8 +3,8 @@
     <test name = "Tests" parallel = "none">
         <parameter name="browser" value="chrome" />
         <classes>
-            <class name = "tests.WithRegistrationTest" />
             <class name = "tests.WithoutRegistrationTest" />
+            <class name = "tests.WithRegistrationTest" />
         </classes>
     </test>
 </suite>
